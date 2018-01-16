@@ -16,4 +16,4 @@ def move(board, index, character = "X")
  puts board[index] = '#{character}'
 end
 
-user_input = "1"
+input = "1"
