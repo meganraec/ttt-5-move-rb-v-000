@@ -8,9 +8,9 @@ puts "Welcome to Tic Tac Toe!"
 
 board = Array.new(9, " ")
 
-puts "Where would you like to go?"
+#puts "Where would you like to go?"
 
-input = gets.strip
-index = input_to_index(input)
-move(board, index, character)
-display_board(move)
+#input = gets.strip
+#index = input_to_index(input)
+#move(board, index, character)
+#display_board(move)
