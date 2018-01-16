@@ -17,7 +17,3 @@ end
 def move(board, position, character = "X")
  puts board[position] = character
 end
-
-user_input = "1"
-user_input = "6"
-user_input = "invalid"
