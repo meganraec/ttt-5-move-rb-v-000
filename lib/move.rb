@@ -12,7 +12,7 @@ board = Array.new(9, " ")
 
 def input_to_index(user_input)
   converted_input = input_to_index(user_input).to_i
-  return converted_input - 1 
+  return converted_input - 1
 end
 
 def move(board, position, character = "X")
@@ -22,6 +22,3 @@ end
 user_input = "1"
 user_input = "6"
 user_input = "invalid"
-
-
-  
