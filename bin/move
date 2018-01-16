@@ -12,4 +12,4 @@ board = Array.new(9, " ")
 input = gets.strip
 index = input_to_index(input)
 move(board, index, character)
-display_board("./bin/move", board)
+display_board("./bin/move", "board")
