@@ -12,4 +12,4 @@ board = Array.new(9, " ")
 input = gets.strip
 index = input_to_index(input)
 move(board, index, "#{value}")
-display_board(move)
+display_board(board)
