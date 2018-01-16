@@ -17,3 +17,4 @@ def move(board, index, character="X")
 end
 
 input = "1"
+input = "2, O"
