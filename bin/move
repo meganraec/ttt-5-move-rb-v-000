@@ -11,5 +11,5 @@ board = Array.new(9, " ")
 
 input = gets.strip
 index = input_to_index(input)
-move(board, 1)
-display_board(board, move)
+move(board, index)
+display_board(board)
