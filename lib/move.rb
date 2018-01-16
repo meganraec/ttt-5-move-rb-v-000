@@ -12,7 +12,7 @@ board = Array.new(9, " ")
 
 def input_to_index(user_input)
   converted_input = "input_to_index(user_input)".to_i
-  position = '#{converted_input}' - 1
+  position = converted_input - 1
   return position
 end
 
