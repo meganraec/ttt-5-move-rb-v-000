@@ -15,8 +15,8 @@ def input_to_index(user_input)
   return converted_input - 1 
 end
 
-def move(" ", " ", " ")
- puts "X"
+def move(board, position, character = "X")
+ puts board[position] = character
 end
 
 user_input = "1"
